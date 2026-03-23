@@ -158,7 +158,7 @@ package proyecto;
 	            String idProducto = generarIdProducto(generarNumeroAleatorio(1, CANTIDAD_PRODUCTOS));
 	            int cantidadVendida = generarNumeroAleatorio(1, 15);
 
-	            String lineaVenta = idProducto + ";" + cantidadVendida + ";";
+	            String lineaVenta = idProducto + ";" + cantidadVendida;
 	            escritor.write(lineaVenta);
 	            escritor.newLine();
 	        }

@@ -47,6 +47,15 @@ package proyecto;
 	        "Jabon", "Galletas", "Mantequilla", "Lentejas"
 	    };
 
+	    /**
+	     * Método principal que ejecuta la generación de todos los archivos de prueba.
+	     * <p>
+	     * Crea la carpeta de archivos si no existe, genera el archivo de productos,
+	     * el archivo de vendedores, y archivos de ventas para cada vendedor con datos aleatorios.
+	     * </p>
+	     *
+	     * @param args argumentos de línea de comandos (no utilizados)
+	     */
 	    public static void main(String[] args) {
 	        try {
 	            crearCarpetaSiNoExiste();

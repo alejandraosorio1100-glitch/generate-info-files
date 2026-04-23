@@ -47,15 +47,6 @@ package proyecto;
 	        "Jabon", "Galletas", "Mantequilla", "Lentejas"
 	    };
 
-	    /**
-	     * Método principal que ejecuta la generación de todos los archivos de prueba.
-	     * <p>
-	     * Crea la carpeta de archivos si no existe, genera el archivo de productos,
-	     * el archivo de vendedores, y archivos de ventas para cada vendedor con datos aleatorios.
-	     * </p>
-	     *
-	     * @param args argumentos de línea de comandos (no utilizados)
-	     */
 	    public static void main(String[] args) {
 	        try {
 	            crearCarpetaSiNoExiste();
@@ -167,7 +158,7 @@ package proyecto;
 	            String idProducto = generarIdProducto(generarNumeroAleatorio(1, CANTIDAD_PRODUCTOS));
 	            int cantidadVendida = generarNumeroAleatorio(1, 15);
 
-	            String lineaVenta = idProducto + ";" + cantidadVendida;
+	            String lineaVenta = idProducto + ";" + cantidadVendida + ";";
 	            escritor.write(lineaVenta);
 	            escritor.newLine();
 	        }
@@ -199,4 +190,3 @@ package proyecto;
 	        return aleatorio.nextInt(maximo - minimo + 1) + minimo;
 	    }
 	}
-

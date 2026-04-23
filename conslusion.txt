@@ -1,0 +1,5 @@
+Durante el desarrollo de este proyecto aprendimos a trabajar con archivos de texto plano en Java, incluyendo su lectura, procesamiento y generación de reportes. También reforzamos el uso de estructuras de datos como HashMap y ArrayList, así como el manejo de excepciones y la importancia de mantener un código organizado y legible.
+
+Estas habilidades son fundamentales en el ámbito profesional, ya que muchos sistemas requieren cargar información desde diferentes fuentes, validarla, procesarla y generar resultados útiles. Este proyecto nos permitió entender cómo implementar este tipo de soluciones en un contexto práctico.
+
+Entre las principales dificultades se encontraron la organización del trabajo en equipo, la unificación del estilo de programación, el manejo de formatos de archivos y la validación de datos incorrectos. A pesar de estos retos, se logró construir una solución funcional que fue mejorada progresivamente hasta llegar a la versión final.

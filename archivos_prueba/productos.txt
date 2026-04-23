@@ -1,0 +1,12 @@
+P01;Arroz;43835
+P02;Azucar;39326
+P03;Cafe;45479
+P04;Leche;16681
+P05;Pan;3952
+P06;Huevos;5070
+P07;Queso;1586
+P08;Harina;49992
+P09;Pasta;44936
+P10;Aceite;5490
+P11;Chocolate;20050
+P12;Sal;5126
